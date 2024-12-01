@@ -5,7 +5,7 @@
 
 // Again, Data Strucutr is in main memory, during the execution of a program, arrangement of data in the main memory. 
 // Arrangement of data on the disk is Database. 
-// Late on, we assme that we have 64 KB of main memory. 
+// Later on, we assme that we have 64 KB of main memory. 
 // 64 KB means 64 * 1024 = 65536 bytes
 // segement is 64 KB 
 

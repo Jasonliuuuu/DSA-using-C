@@ -13,6 +13,7 @@ void fun1(int n){
 int main(){
     int x = 3; 
     fun1(x);
+    cout << "Hello" << endl; 
 }
 
 //In this example, four activation records are created so the size of the stack is 4. (3, 2, 1, 0). 
