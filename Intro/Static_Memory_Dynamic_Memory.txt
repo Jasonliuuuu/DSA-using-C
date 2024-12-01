@@ -1,0 +1,62 @@
+Static Memory Allocation
+Definition:
+
+Static memory allocation is the process of allocating memory at compile time before the associated program is executed. This memory is fixed and cannot be resized during runtime.
+Characteristics:
+
+Size and Lifetime: The size and lifetime of variables are determined at compile time. They exist for the duration of the program.
+Location: Typically, static memory is allocated on the stack or in the data segment of the memory.
+Scope: Variables with automatic storage duration (local variables) and static duration (global and static variables) are allocated statically.
+Access: Fast access due to direct memory address calculations.
+Example in C++:
+
+cpp
+複製程式碼
+void function() {
+    int x;            // x is allocated on the stack
+    static int y;     // y is allocated in the data segment
+    // Both x and y have their memory allocated at compile time
+}
+Dynamic Memory Allocation
+Definition:
+
+Dynamic memory allocation is the process of allocating memory at runtime. This memory can be resized and managed during the execution of the program.
+Characteristics:
+
+Size and Lifetime: The size can be determined and adjusted during runtime. The lifetime is controlled by the programmer, using allocation and deallocation operations.
+Location: Dynamic memory is allocated from the heap.
+Scope: Memory allocated dynamically is typically accessed through pointers.
+Access: Slightly slower access due to the overhead of pointer dereferencing and potential fragmentation.
+Example in C++:
+
+cpp
+複製程式碼
+void function() {
+    int* p = new int[10]; // p points to an array of 10 integers allocated on the heap
+    // Memory is allocated at runtime
+    delete[] p;          // Deallocate memory when done to avoid memory leaks
+}
+Stack vs Heap
+Stack:
+
+Memory Allocation: Automatically managed by the system, occurs when functions are called and variables are created.
+Size: Generally smaller and has size limitations.
+Lifetime: Memory is automatically freed when the function exits or the variable goes out of scope.
+Access Speed: Faster access due to contiguous memory allocation and simple access patterns (LIFO - Last In, First Out).
+Usage: Local variables, function parameters, return addresses.
+Heap:
+
+Memory Allocation: Manually managed by the programmer using allocation (new, malloc) and deallocation (delete, free) functions.
+Size: Generally larger and can grow as needed (limited by the system's available memory).
+Lifetime: Memory persists until explicitly freed by the programmer, allowing for flexible and dynamic use.
+Access Speed: Slower access due to potential fragmentation and the overhead of managing memory.
+Usage: Dynamically sized data structures like linked lists, trees, large arrays, and objects whose size and lifetime need to be managed dynamically.
+Summary
+Static Memory Allocation:
+Occurs at compile time.
+Fixed size and scope.
+Allocated on the stack or data segment.
+Dynamic Memory Allocation:
+Occurs at runtime.
+Flexible size and scope.
+Allocated on the heap.
