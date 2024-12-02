@@ -25,7 +25,7 @@ int main(){
     cin >> arr.size; 
     arr.A = new int[arr.size]; 
     arr.length = 0; 
-    cout << "Enter the number of numbers" << endl; 
+    cout << "Enter the length you want in the array" << endl; 
     cin >> n; //To see how many numbers in the array
     cout << "Enter all Elements:" << endl; 
 

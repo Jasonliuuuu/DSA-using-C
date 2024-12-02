@@ -103,7 +103,7 @@ string BinarySearch(struct Array array, int key) {
 int main(){
     struct Array arr{{2, 6, 9, 13, 80}, 10, 5}; 
     
-    cout << BinarySearch(arr, 11); 
+    cout << BinarySearch(arr, 9); 
     
     return 0;
 }

@@ -6,7 +6,7 @@
 // 5. Time complexity
 // 6. Recursion Relation 
 // Let's go through first - What is recursion?
-// Simple: A function calling itself is called recursion. And iside recursive function , there must be some condition which will make the recursion stop (terminate), or it will be infinite work. 
+// Simple: A function calling itself is called recursion. And inside recursive function, there must be some condition which will make the recursion stop (terminate), or it will be infinite work. 
 //Exanple of Recursion:
 #include <iostream>
 using namespace std;
@@ -25,7 +25,7 @@ int main(){
     return 0;
 }
 // This is called as tracing of Recursive Function
-// Recursion is like Repearting the task - LOOP. But loop have only ascending phase, but the recursion will have ascending as well as descending phase. 
+// Recursion is like Repeating the task - LOOP. But loop have only ascending phase, but the recursion will have ascending as well as descending phase. 
 
 // Asceding phase:
 // During this phase, the function keeps calling itself with a different argument, usually moving towards a base case.

@@ -39,7 +39,7 @@ void Append(struct Array *array, int x){
 }
 
 int main(){
-    struct Array arr{{2, 3, 4, 5, 6}, 10, 5}; 
+    struct Array arr{{2, 3, 4, 5, 6}, 10, 10}; 
     Display(arr); 
     // Append(&arr, 7); 
     // this will pass the address of arr (i.e. a pointer to "arr")

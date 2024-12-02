@@ -11,13 +11,13 @@
 // In contrast to primitive data types, there is a concept of user defined data types. The operations and values of user defined data types thar are nor specified in the language but is specified by the user.
 // So that's see what is abstract
 // It means hiding internal detail. 
-// Basically we do not need to know in detail that how the integer, 16 bits how they do operation and performed. Without knowing them, we can use them. These things are hidden grom us. We called them abstract. Without knowing internal detail and technique, we can use it.                        
+// Basically we do not need to know in detail that how the integer, 16 bits how they do operation and performed. Without knowing them, we can use them. These things are hidden from us. We called them abstract. Without knowing internal detail and technique, we can use it.                        
 
 
 //After knowing what is datatype and what is abstract data type, we can directly introduce what is abstract data type. 
 
-//ADT are like uer defined data types which definew operations on values using functions without specifying what is there inside the function and how the opertations are performed. 
-// ADTS are like uwer defined types which defines operation son values using functions withoit specifying what is there inside the function and how the operations are performed. 
+//ADT are like user defined data types which define operations on values using functions without specifying what is there inside the function and how the opertations are performed. 
+// ADTS are like user defined types which defines operation son values using functions without specifying what is there inside the function and how the operations are performed. 
 
 
 

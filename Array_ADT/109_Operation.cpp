@@ -130,7 +130,6 @@ int main(){
     struct Array arr{{2, 3, 4, 5, 6}, 10, 5}; 
     
     cout <<"the minimum number is: " << Min(arr) << endl; ; 
-    Display(arr); 
-    
+    Display(arr);
     return 0;
 }

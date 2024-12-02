@@ -24,7 +24,7 @@
 // Stack Memory:
 
 // Automatic Allocation: Memory for local variables and function call parameters is automatically allocated and deallocated as functions are called and return.
-// Fixed Size: The size of the stack is generally much smaller and is determined at the start of the program.
+// Fixed Size: The size of the stack is generally much smaller and is determined at the "start of the program" by the compiler.
 // LIFO (Last In, First Out): Stack operates in a LIFO order, which means the last memory block allocated is the first one to be deallocated.
 // Lifetime: Variables allocated on the stack are only alive for the duration of the function call in which they are declared.
 // Heap Memory:
